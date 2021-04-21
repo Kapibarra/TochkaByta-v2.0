@@ -1,1 +1,29 @@
 @import '_variables.scss';
+.header {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav-item {
+    text-decoration: none;
+    color: white;
+}
+
+.header__contacts {
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    justify-content: space-between;
+}
+
+.header__contacts-item p {
+    color: black;
+}
