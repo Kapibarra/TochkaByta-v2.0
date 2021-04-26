@@ -8,7 +8,9 @@
 .bgwrapper {
     background: url(src/img/mainpagebg1.png);
     background-repeat: no-repeat;
-    background-position: calc(100vw - 44vw);
+    background-position: calc(100vw - 50vw);
+    padding-bottom: 20px;
+    margin-bottom: 150px;
 }
 
 .mainpage__wrapper {
@@ -35,4 +37,9 @@
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 250px;
+}
+
+.mainpage__secondsection-item {
+    width: 100%;
+    max-width: 250px;
 }
