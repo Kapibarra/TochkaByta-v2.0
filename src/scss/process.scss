@@ -13,6 +13,10 @@
 .mainpage__process-title {
     text-align: center;
     margin-bottom: 50px;
+    color: white;
+    font-family: $font-family;
+    font-size: 36px;
+    font-weight: 300;
 }
 
 .mainpage__process {
@@ -36,18 +40,20 @@
 
 .mainpage__process-card-title {
     text-align: center;
+    color: white;
     font-family: $font-family;
     font-size: 18px;
+    font-weight: 300;
     padding-top: 10px;
-    font-weight: 400;
 }
 
 .mainpage__process-card-text {
     margin-left: 80px;
     margin-right: 40px;
+    color: white;
     font-family: $font-family;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 200;
 }
 
 .mainpage__process-card-number {
