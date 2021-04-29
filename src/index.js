@@ -1,5 +1,14 @@
 import "./scss/index.scss";
 
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth',
+      });
+  });
+});
+
 /* SCROLL TO TOP BTN */
 const scrollToTopButton = document.getElementById("js-top");
 const scrollFunc = () => {
