@@ -20,6 +20,18 @@
     font-weight: 300;
 }
 
+.mainpage__services-card-subtitle {
+    width: 250px;
+    text-align: left;
+    color: white;
+    font-family: $font-family;
+    font-size: 14px;
+    font-weight: 200;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .mainpage__services-card-wrapper {
     width: 100%;
     max-width: 1400px;
@@ -39,15 +51,6 @@
     box-shadow: 0px 0px 10px 0px rgba(#0AAFAA, .36);
 }
 
-.mainpage__services-card-title {
-    text-align: center;
-}
-
 .mainpage__services-card-img {
     margin: 60px 40px;
-}
-
-.mainpage__services-card-subtitle {
-    text-align: center;
-    margin: 0 auto;
 }
