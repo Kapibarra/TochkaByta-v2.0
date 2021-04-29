@@ -29,11 +29,27 @@
     color: white;
     font-family: $font-family;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 300 !important;
 }
 
 .mainpage__mainimg {
     margin-top: 50px;
+}
+
+.img2 {
+    margin-top: 14px !important;
+}
+
+.img3 {
+    margin-top: 12px !important;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: $font-family;
+    font-weight: 300;
+    font-size: 24px;
 }
 
 .mainpage__secondsection {
@@ -54,5 +70,14 @@
         width: 86px;
         display: block;
         margin: 0 auto;
+    }
+    & p {
+        width: 145px;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        font-family: $font-family;
+        font-weight: 200;
+        font-size: 16px;
     }
 }
