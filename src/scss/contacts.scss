@@ -16,6 +16,7 @@
         width: 100%;
         max-width: 1400px;
         margin: 0 auto;
+        margin-bottom: 100px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -48,4 +49,22 @@
         & input {
             display: block;
         }
+    }
+    
+    .form-field {
+        height: 46px;
+        padding: 0 16px;
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        font-family: 'Julius Sans One', sans-serif;
+        color: $black;
+        outline: 0;
+        transition: .2s;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 218px;
+    }
+    
+    .form-field:focus {
+        border-color: rgba($color: $black, $alpha: 0.7)
     }
