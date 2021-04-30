@@ -6,6 +6,7 @@
     flex-direction: row;
     margin: 0 auto;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .header__nav {
@@ -47,6 +48,13 @@
 @media screen and (max-width: 1280px) {
     .desktop-nav {
         display: none;
+    }
+    .header {
+        width: 600px;
+    }
+    .header__nav {
+        width: 80px;
+        padding: 10px;
     }
     .nav-toggle {
         display: block !important;
