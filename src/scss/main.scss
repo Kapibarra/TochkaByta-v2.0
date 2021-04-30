@@ -83,6 +83,7 @@ h2 {
 }
 
 .main-button:hover {
+    transition: all 0.7s;
     cursor: pointer;
     color: black;
 }
@@ -97,7 +98,13 @@ button {
     font-family: $font-family !important;
     font-weight: 500;
     font-size: 18px !important;
+    transition: all 0.7s;
     cursor: pointer;
+    &:hover {
+        transition: all 0.7s;
+        background: white;
+        color: black;
+    }
 }
 
 .animation {
