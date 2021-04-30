@@ -43,3 +43,37 @@
     font-size: 18px;
     font-weight: 200;
 }
+
+@media screen and (max-width: 1280px) {
+    .desktop-nav {
+        display: none;
+    }
+    .nav-toggle {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .header__logo {
+        max-width: 350px;
+    }
+    .nav-toggle {
+        top: 72px !important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .header {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header__logo {
+        font-size: 25px !important;
+    }
+    .nav-toggle {
+        top: 30px !important;
+        right: 15px !important;
+    }
+}

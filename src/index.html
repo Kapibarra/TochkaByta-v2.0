@@ -29,13 +29,23 @@
         <a class="skip-link" href="#" style="display: none;">Skip</a>
         <div class="bgwrapper">
             <header class="header">
-                <nav class="header__nav">
+                <div class="header__nav">
                     <div class="header__logo">
                         <img src="src\img\logo.png"></img>
                     </div>
                     <a href="#" class="header__nav-item">Услуги</a>
                     <a href="#" class="header__nav-item">Отзывы</a>
                     <a href="#" class="header__nav-item">Контакты</a>
+                </div>
+                <div class="nav-toggle">
+                    <div class="nav-toggle-bar"></div>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a class="header__nav-item active" href="index.html" aria-label="collection">Collection</a></li>
+                        <li><a class="header__nav-item" href="about.html" aria-label="about me">It's me</a></li>
+                        <li><a class="header__nav-item" href="contacts.html" aria-label="contacts">Contacts</a></li>
+                    </ul>
                 </nav>
                 <div class="header__contacts">
                     <div class="header__contacts-item">
@@ -211,6 +221,12 @@
             <img src="/src/img/logo.png">
             <p class="mainpage__footer-copyright">(C) Novikov.N.M 2020-2021</p>
         </footer>
+        <a class="top-link hide" href="" id="js-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+                <path d="M12 6H0l6-6z" />
+            </svg>
+            <span class="screen-reader-text">Back to top</span>
+        </a>
 </body>
 
 </html>
