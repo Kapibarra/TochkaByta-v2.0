@@ -163,3 +163,31 @@ button {
         width: 440px;
     }
 }
+
+@media screen and (max-width: 1280px) {
+    .bgwrapper {
+        background-size: 50%;
+    }
+    .header__contacts-item p {
+        font-weight: 400;
+    }
+    .mainpage__title {
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    .mainpage__mainimg {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .mainpage__services-card {
+        margin-bottom: 100px !important;
+    }
+    .mainpage__contacts-text {
+        width: 100%;
+        max-width: 600px;
+    }
+    .mainpage__contacts {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+}
