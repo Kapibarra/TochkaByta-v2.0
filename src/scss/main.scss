@@ -190,4 +190,21 @@ button {
         box-sizing: border-box;
         padding: 10px;
     }
+    .mainpage__secondsection-item {
+        margin: 0 auto;
+    }
+    .mainpage__process-cardswrapper {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header__contacts {
+        display: block;
+        margin: 0 auto;
+        width: unset;
+    }
+    .mainpage__process-cardswrapper {
+        margin-bottom: 50px !important;
+    }
 }
