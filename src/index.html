@@ -21,6 +21,8 @@
     <link rel="icon" src="src/favicon2.ico" type="image/x-icon">
     <link rel="shortcut icon" href="src/favicon2.ico" type="image/x-icon">
     <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="src\jquery.malihu.PageScroll2id.min.js"></script>
     <title>Ремонт телефонов, ноутбуков и другой бытовой техники</title>
 </head>
 
@@ -33,18 +35,18 @@
                     <div class="header__logo">
                         <img src="src\img\logo.png"></img>
                     </div>
-                    <a href="#" class="header__nav-item desktop-nav">Услуги</a>
-                    <a href="#" class="header__nav-item desktop-nav">Отзывы</a>
-                    <a href="#" class="header__nav-item desktop-nav">Контакты</a>
+                    <a href="#service" class="header__nav-item desktop-nav" aria-label="service">Услуги</a>
+                    <a href="#reviews" class="header__nav-item desktop-nav" aria-label="reviews">Отзывы</a>
+                    <a href="#contacts" class="header__nav-item desktop-nav" aria-label="contacts">Контакты</a>
                 </div>
                 <div class="nav-toggle">
                     <div class="nav-toggle-bar"></div>
                 </div>
                 <nav class="nav">
                     <ul>
-                        <li><a class="header__nav-item active" href="index.html" aria-label="collection">Collection</a></li>
-                        <li><a class="header__nav-item" href="about.html" aria-label="about me">It's me</a></li>
-                        <li><a class="header__nav-item" href="contacts.html" aria-label="contacts">Contacts</a></li>
+                        <li><a href="#service" class="header__nav-item desktop-nav" aria-label="service">Услуги</a></li>
+                        <li> <a href="#reviews" class="header__nav-item desktop-nav" aria-label="reviews">Отзывы</a></li>
+                        <li> <a href="#contacts" class="header__nav-item desktop-nav" aria-label="contacts">Контакты</a></li>
                     </ul>
                 </nav>
                 <div class="header__contacts">
@@ -62,7 +64,7 @@
                 <div class="mainpage__title">
                     <h1>Ремонт бытовой техники, компьютеров,<br> планшетов, телефонов в Крылатском.
                     </h1>
-                    <a href="#contacts" class="main-button">
+                    <a href="#contacts" rel="m_PageScroll2id" class="main-button">
                         <button class="main-button">Связаться c нами</button>
                     </a>
                 </div>
@@ -90,7 +92,7 @@
             </div>
         </div>
         <div class="mainpage__services-bgwrapper">
-            <div class="mainpage__services">
+            <div class="mainpage__services" id="service">
                 <h1 class="mainpage__services-title">Какие ремонтные услуги мы предлагаем</h1>
                 <div class="mainpage__services-card-wrapper">
                     <div class="mainpage__services-card">
@@ -227,6 +229,13 @@
             </svg>
             <span class="screen-reader-text">Back to top</span>
         </a>
+        <script>
+            (function($) {
+                $(window).on("load", function() {
+                    $("a[rel='m_PageScroll2id']").mPageScroll2id();
+                });
+            })(jQuery);
+        </script>
 </body>
 
 </html>
