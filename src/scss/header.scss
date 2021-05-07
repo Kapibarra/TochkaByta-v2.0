@@ -71,6 +71,9 @@
 }
 
 @media screen and (max-width: 420px) {
+    .header__contacts {
+        display: none !important;
+    }
     .header {
         padding-top: 30px;
         padding-bottom: 30px;
