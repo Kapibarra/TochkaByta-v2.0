@@ -220,4 +220,32 @@ button {
         width: 100%;
         max-width: 400px;
     }
+    .mainpage__title {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .mainpage__process-card-number {
+        left: -2% !important;
+    }
+    .mainpage__secondsection {
+        margin-top: 100px;
+    }
+    .mainpage__secondsection-item {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .mainpage__prosecc-card {
+        width: 300px !important;
+        margin: 0 auto;
+    }
+    .mainpage__services-card {
+        width: 300px !important;
+        margin: 0 auto !important;
+        margin-bottom: 30px !important;
+    }
+    .mainpage__services-card-img {
+        width: 220px;
+    }
 }
