@@ -68,3 +68,13 @@
     .form-field:focus {
         border-color: rgba($color: $black, $alpha: 0.7)
     }
+    
+    .contacts__tel {
+        text-decoration: none;
+        color: white;
+        margin-bottom: 15px;
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }

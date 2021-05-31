@@ -51,6 +51,32 @@
     box-shadow: 0px 0px 10px 0px rgba(#0AAFAA, .36);
 }
 
+ul {
+    padding: unset !important;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    color: aliceblue;
+}
+
+.mainpage__service-card-ul {
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.service__price {
+    padding-left: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(219, 253, 247);
+}
+
 .mainpage__services-card-img {
     margin: 60px 40px;
 }
