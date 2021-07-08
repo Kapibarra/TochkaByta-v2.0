@@ -1,7 +1,7 @@
 .page {
     width: 100%;
     max-width: 1903px;
-    background: #303E46;
+    background: #282828;
 }
 
 .bgwrapper {
@@ -48,7 +48,7 @@
 
 h2 {
     text-align: center;
-    color: white;
+    color: #23d997;
     font-family: $font-family;
     font-weight: 600;
     margin-top: 25px;
@@ -93,11 +93,11 @@ h2 {
 }
 
 button {
-    width: 250px;
-    height: 40px;
-    background: linear-gradient(rgba(138, 160, 211, 1), rgba(159, 222, 255, 1));
+    width: 280px;
+    height: 60px;
+    background: #23d997;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
     font-family: $font-family !important;
     font-weight: 500;
@@ -105,9 +105,10 @@ button {
     transition: all 0.7s;
     cursor: pointer;
     &:hover {
+        border: 1px solid #23d997;
         transition: all 0.7s;
         background: white;
-        color: black;
+        color: #282828;
     }
 }
 
