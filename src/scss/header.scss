@@ -28,9 +28,10 @@
     transition: all 0.4s;
     &:hover {
         transition: all 0.4s;
-        color: #0AAFAA;
+        color: $green;
         transform: scale(1.2);
-        text-decoration: underline;
+        font-weight: 300;
+        text-decoration: none;
     }
 }
 
