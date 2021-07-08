@@ -8,10 +8,10 @@
 }
 
 .mainpage__reviews-title {
-    color: white;
+    color: $green;
     font-family: $font-family;
-    font-size: 36px;
-    font-weight: 300;
+    font-size: 42px;
+    font-weight: 600;
     text-align: center;
     margin: 1.67em;
 }
@@ -92,6 +92,7 @@
     &:hover {
         cursor: pointer;
         color: black;
+        text-decoration: none;
     }
 }
 
