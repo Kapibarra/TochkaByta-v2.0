@@ -78,3 +78,36 @@
             color: white;
         }
     }
+    
+    .terms {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        & input {
+            margin-top: 21px;
+        }
+    }
+    
+    #sendNew:disabled {
+        cursor: not-allowed;
+        color: rgb(199, 199, 199);
+        background: rgb(209, 209, 209);
+        opacity: 0.3;
+    }
+    
+    .private-policy {
+        border: none;
+        width: 100%;
+        padding: 10px;
+        max-width: 250px;
+        font-family: Raleway;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: unset;
+        text-decoration: none;
+        color: rgb(247, 247, 247);
+        &:hover {
+            border-top: unset;
+            border-bottom: unset;
+        }
+    }
