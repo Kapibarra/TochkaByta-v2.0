@@ -1,11 +1,11 @@
     .mainpage__contacts-bgwrapper {
-        background-color: #384D58;
+        background-image: linear-gradient(to bottom, #282828, rgb(26, 43, 39))
     }
     
     .mainpage__contacts-title {
         text-align: center;
         margin: 0px auto;
-        color: white;
+        color: $green;
         font-family: $font-family;
         font-size: 36px;
         font-weight: 300;
