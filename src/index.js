@@ -1,4 +1,5 @@
 import "./scss/index.scss";
+import Inputmask from "inputmask";
 
 /* SCROLL TO TOP BTN */
 const scrollToTopButton = document.getElementById("js-top");
@@ -55,3 +56,9 @@ function burgerButtonToggle() {
 window.addEventListener("scroll", burgerButtonToggle);
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+// Phone Mask
+
+const selector = document.getElementById("phonenum");
+const im = new Inputmask("+7(999)-999-99-99");
+im.mask(selector);
