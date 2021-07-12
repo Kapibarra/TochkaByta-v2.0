@@ -68,3 +68,16 @@
     top: 20%;
     left: -5%;
 }
+
+@media screen and (max-width: 414px) {
+    .mainpage__prosecc-card {
+        height: 220px;
+        margin: 0 auto;
+        width: 300px;
+        margin-bottom: 30px;
+    }
+    .mainpage__process-card-number {
+        top: 28% !important;
+        left: -14% !important;
+    }
+}
