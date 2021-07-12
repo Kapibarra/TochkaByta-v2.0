@@ -91,6 +91,7 @@
     display: block;
     margin: 10px auto;
     text-decoration: none;
+    z-index: 99;
     &:hover {
         cursor: pointer;
         color: black;

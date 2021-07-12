@@ -31,6 +31,7 @@
     font-family: $font-family;
     font-size: 18px;
     font-weight: 400 !important;
+    z-index: 99;
 }
 
 .slider .indicators .indicator-item {
@@ -114,6 +115,7 @@ h2 {
     transition: all 0.7s;
     cursor: pointer;
     color: black;
+    z-index: 3;
 }
 
 button {
@@ -128,6 +130,7 @@ button {
     font-size: 18px !important;
     transition: all 0.7s;
     cursor: pointer;
+    z-index: 3;
     &:hover {
         border: 1px solid #23d997;
         transition: all 0.7s;
