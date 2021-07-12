@@ -61,7 +61,7 @@
     border: 2px solid #ddd;
     border-radius: 4px;
     font-family: "Julius Sans One", sans-serif;
-    color: $black;
+    color: $green;
     outline: 0;
     transition: 0.2s;
     margin-top: 60px;
@@ -70,7 +70,7 @@
 }
 
 .form-field:focus {
-    border-color: rgba($color: $black, $alpha: 0.7);
+    border-color: rgba(#23D896, 0.7);
 }
 
 .contacts__tel {
