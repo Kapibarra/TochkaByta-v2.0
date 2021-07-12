@@ -13,7 +13,8 @@
     padding: .25em;
     width: 40px;
     height: 40px;
-    background-color: #f3f3f3;
+    border: 2px solid $black;
+    background-color: $green;
     &.show {
         visibility: visible;
         opacity: 1;
