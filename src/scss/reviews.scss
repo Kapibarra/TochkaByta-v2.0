@@ -87,11 +87,21 @@
     margin-top: 100px;
 }
 
+.reviews-btn-wrapper {
+    display: block;
+    position: relative;
+    width: 280px;
+    margin: 0 auto;
+    z-index: 100;
+}
+
 .reviews-button {
     display: block;
+    z-index: 100;
+    width: 280px;
+    height: 60px;
     margin: 10px auto;
     text-decoration: none;
-    z-index: 99;
     &:hover {
         cursor: pointer;
         color: black;

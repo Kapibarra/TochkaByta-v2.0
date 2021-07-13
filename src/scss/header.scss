@@ -40,7 +40,7 @@
 .header__contacts {
     display: flex;
     width: 100%;
-    max-width: 450px;
+    max-width: 480px;
     justify-content: space-between;
 }
 
@@ -48,14 +48,14 @@
     color: black;
     font-family: $font-family;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .header__contacts-link {
     text-decoration: none;
     color: black;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 600;
     img {
         padding-right: 10px;
     }
