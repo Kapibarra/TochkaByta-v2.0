@@ -248,11 +248,15 @@ button {
 }
 
 @media screen and (max-width: 420px) {
+    .mainpage__wrapper {
+        margin-top: 0 !important;
+    }
     .mainpage__mainimg img {
         width: 100%;
         max-width: 400px;
     }
     .mainpage__title {
+        margin-top: 0;
         box-sizing: border-box;
         padding: 10px;
     }
