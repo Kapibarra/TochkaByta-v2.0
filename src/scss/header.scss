@@ -23,15 +23,16 @@
     color: rgb(243, 243, 243);
     font-family: $font-family;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 600;
     margin-top: 30px;
     transform: scale(1);
     transition: all 0.4s;
+    border-bottom: 2px solid rgba(131, 255, 183, 0);
     &:hover {
         transition: all 0.4s;
         color: $green;
         transform: scale(1.2);
-        font-weight: 300;
+        border-bottom: 2px solid rgba(131, 255, 183, 1);
         text-decoration: none;
     }
 }
