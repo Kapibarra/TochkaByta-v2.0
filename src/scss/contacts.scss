@@ -32,11 +32,19 @@
         transition: all 0.3s;
         color: aliceblue;
     }
+    & img {
+        filter: none;
+        transition: all 0.3s;
+    }
     &:hover {
         cursor: pointer;
         & p {
             transition: all 0.3s;
             color: #23D896;
+        }
+        & img {
+            filter: brightness(1.2);
+            box-shadow: 3px 3px 25px #23D896;
         }
     }
 }
@@ -97,12 +105,15 @@
 .contacts__tel {
     text-decoration: none;
     display: block;
-    color: $green;
+    color: #23D896;
+    font-weight: 600;
     margin-bottom: 15px;
     width: 100%;
+    transition: all 0.3s ease-out;
     &:hover {
+        transition: all 0.3s ease-in;
         text-decoration: none;
-        color: rgb(247, 247, 247);
+        color: rgb(199, 252, 227);
     }
 }
 
