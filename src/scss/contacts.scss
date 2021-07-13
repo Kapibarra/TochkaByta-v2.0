@@ -23,6 +23,24 @@
     justify-content: space-between;
 }
 
+.contacts__wa-link {
+    display: flex;
+    height: 55px;
+    width: 250px;
+    & p {
+        margin-top: 18px;
+        transition: all 0.3s;
+        color: aliceblue;
+    }
+    &:hover {
+        cursor: pointer;
+        & p {
+            transition: all 0.3s;
+            color: #23D896;
+        }
+    }
+}
+
 .mainpage__contacts-text {
     color: white;
     font-family: $font-family;
@@ -78,8 +96,9 @@
 
 .contacts__tel {
     text-decoration: none;
+    display: block;
     color: $green;
-    padding-bottom: 20px;
+    margin-bottom: 15px;
     width: 100%;
     &:hover {
         text-decoration: none;
