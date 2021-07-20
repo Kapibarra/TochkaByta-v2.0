@@ -4,6 +4,10 @@
     background: #282828;
 }
 
+.highlighted {
+    color: $highlighted;
+}
+
 .bgwrapper {
     background: url(src/img/mainpagebg1.png);
     background-repeat: no-repeat;
