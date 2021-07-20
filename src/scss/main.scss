@@ -16,6 +16,23 @@
     }
 }
 
+.main__social-wrapper {
+    position: fixed;
+    bottom: 100px;
+    right: 22px;
+    z-index: 999;
+    & img {
+        padding: 10px;
+        filter: brightness(1.2);
+        transition: all 0.5s;
+    }
+    &:hover img {
+        filter: brightness(2);
+        cursor: pointer;
+        transition: all 0.5s;
+    }
+}
+
 .bgwrapper {
     background: url(src/img/mainpagebg1.png);
     background-repeat: no-repeat;
