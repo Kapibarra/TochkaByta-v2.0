@@ -5,7 +5,15 @@
 }
 
 .highlighted {
-    color: $highlighted;
+    color: $highlight;
+    padding-left: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    &:hover {
+        cursor: pointer;
+        text-decoration: none;
+    }
 }
 
 .bgwrapper {
