@@ -46,10 +46,33 @@
 .mainpage__services-card {
     width: 400px;
     margin: 0 auto;
-    margin-bottom: 310px;
+    margin-bottom: 210px;
     background-color: #384D58;
     box-shadow: 0px 0px 10px 0px rgba(#23D997, .36);
     z-index: 1;
+}
+
+.service-button {
+    width: 280px;
+    height: 60px;
+    display: block;
+    margin: 20px auto;
+    background: #23d997;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: $font-family !important;
+    font-weight: 500;
+    font-size: 18px !important;
+    transition: all 0.7s;
+    cursor: pointer;
+    z-index: 3;
+    &:hover {
+        border: 1px solid #23d997;
+        transition: all 0.7s;
+        background: white;
+        color: #282828;
+    }
 }
 
 .service-card-img1 {
