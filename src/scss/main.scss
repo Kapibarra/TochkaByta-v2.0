@@ -16,6 +16,14 @@
     }
 }
 
+.small {
+    width: 100%;
+    max-width: 1384px;
+    margin: 0 auto;
+    text-align: center;
+    color: $highlight;
+}
+
 .main__social-wrapper {
     position: fixed;
     bottom: 100px;
